@@ -92,3 +92,51 @@ document.write("Multiplication: " + multiplicationResult + "<br>");
 
 var divisionResult = a / b;
 document.write("Divide: " + divisionResult + "<br>");
+
+
+//Chapter 06
+//Answer 01
+var num1= +prompt("Enter a First Number For Addition");
+var num2= +prompt("Enter A Second Number For Addition");
+var additionResult= num1+num2;
+document.write("The Addition of First And Second Number is " + additionResult + "<br>");
+console.log("The Addition of First And Second Number is " + additionResult  );
+//Answer 02
+var num1= prompt("Enter a First Number For Subtraction");
+var num2= prompt("Enter A Second Number For Subtraction");
+var subtractionResult= num1-num2;
+document.write("The Subtraction of First And Second Number is " + subtractionResult + "<br>");
+
+var num1= prompt("Enter a First Number For Multiplication");
+var num2= prompt("Enter A Second Number For Multiplication");
+var multiplicationResult= num1*num2;
+document.write("The Multiplication of First And Second Number is " + multiplicationResult + "<br>");
+
+var num1= +prompt("Enter a First Number For Division");
+var num2= +prompt("Enter A Second Number For Division");
+var divisionResult= num1+num2;
+document.write("The Division of First And Second Number is " + divisionResult + "<br>");
+
+
+//Answer 02
+//(a)
+var declaredVariable;
+//(b)
+document.write("Value After Declaration is: " + declaredVariable + "<br>");
+//(c)
+declaredVariable= 40;
+//(d)
+var evalue= 5;
+document.write("Initial Value: " + evalue); 
+//(e)
+++evalue;
+//(f)
+document.write("Value After Increment is: " + evalue + "<br>");
+//(g)
+evalue += 7;
+//(h)
+document.write("Value After Addition is: " + evalue + "<br>" );
+//(i)
+--evalue;
+//(j)
+document.write("Value After Decrement is: " + evalue + "<br>");
