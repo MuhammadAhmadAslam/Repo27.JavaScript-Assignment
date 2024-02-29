@@ -140,3 +140,80 @@ document.write("Value After Addition is: " + evalue + "<br>" );
 --evalue;
 //(j)
 document.write("Value After Decrement is: " + evalue + "<br>");
+//(k)
+var evalueModulus= (evalue%3);
+//(l)
+document.write("The reminder is: " + evalueModulus + "<br>");
+
+//Answer 03
+var movieTicket= 600;
+document.write("Total Cost to Buy 5 Tickets to Movie is:" + movieTicket*5 + "<br>");
+//Answer 04
+var tablenumber= prompt("Enter a Number For Table");
+document.write("Table Of " + " " + tablenumber + "<br>");
+document.write(tablenumber + " X 1 = " + tablenumber*1 + "<br>");
+document.write(tablenumber + " X 2 = " + tablenumber*2 + "<br>");
+document.write(tablenumber + " X 3 = " + tablenumber*3 + "<br>");
+document.write(tablenumber + " X 4 = " + tablenumber*4 + "<br>");
+document.write(tablenumber + " X 5 = " + tablenumber*5 + "<br>");
+document.write(tablenumber + " X 6 = " + tablenumber*6 + "<br>");
+document.write(tablenumber + " X 7 = " + tablenumber*7 + "<br>");
+document.write(tablenumber + " X 8 = " + tablenumber*8 + "<br>");
+document.write(tablenumber + " X 9 = " + tablenumber*9 + "<br>");
+document.write(tablenumber + " X 10 = " + tablenumber*10 + "<br>");
+
+//Answer 05
+var celsius= 25;
+document.write(celsius + "C" + " " + "is " + ((celsius * 9 / 5) + 32) + "F" );
+console.log(celsius + "C" + " " + "is" + ((celsius*9/5) + 32) + "F" + "<br>");
+
+var farenhiet= 70;
+document.write( "<br>" + farenhiet + "F " + "" + "is " + ((farenhiet - 32)* 5 / 9) + "C");
+
+//Answer 06
+var item1= 650;
+var item2= 100
+document.write("<br>" + "Total Cost of Your Order is: " + ((item1*3)+(item2*7)+100) + "<br>");
+
+//Answer 07
+var totalMarks= 980;
+var obtainedMarks= 804;
+var percentage=(obtainedMarks/totalMarks)*100;
+console.log(percentage);
+document.write("Total Marks: " + totalMarks +  "<br>");
+document.write("ObtainedMarks:" + obtainedMarks + "<br>");
+document.write("Percentage:" + percentage + ":" + "<br>");
+
+//Answer 08
+var usdollar= 10
+var saudiriyal= 25;
+var totalCurrency= (usdollar*104.80)+(saudiriyal*28);
+console.log(totalCurrency);
+document.write("Total Currency is: " + totalCurrency + "<br>");
+
+//Answer 09
+var example= 10;
+var example= 10 +  5 * 10 / 2;
+console.log(example);
+document.write(example + "<br>");
+
+//Answer 10
+var birthDateYear= 7;
+var currentYear = 24;
+var currentAge = currentYear - birthDateYear;
+document.write(`Your Current Age is: ${currentAge}<br>`);
+
+//Answer 11
+var radiusOfCircle= 20;
+var circumfarance= 2*3.142*radiusOfCircle;
+var area= 3.142*radiusOfCircle*radiusOfCircle;
+document.write("The Circumfarance Of A Circle: " + circumfarance + "<br>");
+document.write("The Area Of Circle: " + area + "<br>");
+
+//Answer 12
+var favouriteChips = "chocos";
+var yourAge= 15;
+var estimatedAge = 65;
+var amountPerDay = 3;
+var total = (estimatedAge  - yourAge) * 3;
+document.write(`You wil need ${total} Chocolate Chips To Last You Until The Ripe Old Age Of ${estimatedAge}`);
