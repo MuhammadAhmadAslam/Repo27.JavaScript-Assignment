@@ -253,7 +253,7 @@ document.write("Welcome" + yourName + "<br>");
 
 //Answer 04
 var multiplynumber = prompt("Enter a number to display a table of this number");
-if(multiplynumber <= 0){
+if(0 >= multiplynumber){
     var multiplynumber = 5;
 }
 document.write("Table Of " + " " + multiplynumber + "<br>");
