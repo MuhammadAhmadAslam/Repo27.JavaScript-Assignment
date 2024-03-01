@@ -217,3 +217,69 @@ var estimatedAge = 65;
 var amountPerDay = 3;
 var total = (estimatedAge  - yourAge) * 3;
 document.write(`You wil need ${total} Chocolate Chips To Last You Until The Ripe Old Age Of ${estimatedAge}`);
+
+//Chapter 06
+//Answer 01
+var number1= 30;
+document.write("The Value Of number1 is: " + number1 + "<br>");
+++number1;
+document.write("The Value of ++a is: " + number1 + "<br>");
+document.write("Now the value of a is: " + number1 + "<br>");
+number1++
+document.write("The Value of a++ is: " + number1 + "<br>");
+document.write("Now the value of a is: " + number1 + "<br>");
+number1--
+document.write("The Value of a-- is: " + number1 + "<br>");
+document.write("Now the value of a is: " + number1 + "<br>");
+--number1
+document.write("The Value of --a is: " + number1 + "<br>");
+document.write("Now the value of a is: " + number1 + "<br>");
+
+//Answer 02
+var a= 2;
+var b = 1;  // 1 - 0  +  1  +  1     
+var result = --a - --b + ++b + b--;
+console.log(result);
+console.log(a);
+console.log(b);
+document.write("the result of a is: " + a + "<br>");
+document.write("the result of b is: " + b + "<br>");
+document.write("the result of opreation on a and b is: " + result + "<br>");
+
+//Answer 03
+var yourName= prompt("Enter Your Full Name");
+document.write("Welcome" + yourName + "<br>");
+
+
+//Answer 04
+var multiplynumber = prompt("Enter a number to display a table of this number");
+if(multiplynumber =< 0){
+    var multiplynumber = 5;
+}
+document.write("Table Of " + " " + multiplynumber + "<br>");
+document.write(multiplynumber + " X 1 = " + multiplynumber*1 + "<br>");
+document.write(multiplynumber + " X 2 = " + multiplynumber*2 + "<br>");
+document.write(multiplynumber + " X 3 = " + multiplynumber*3 + "<br>");
+document.write(multiplynumber + " X 4 = " + multiplynumber*4 + "<br>");
+document.write(multiplynumber + " X 5 = " + multiplynumber*5 + "<br>");
+document.write(multiplynumber + " X 6 = " + multiplynumber*6 + "<br>");
+document.write(multiplynumber + " X 7 = " + multiplynumber*7 + "<br>");
+document.write(multiplynumber + " X 8 = " + multiplynumber*8 + "<br>");
+document.write(multiplynumber + " X 9 = " + multiplynumber*9 + "<br>");
+document.write(multiplynumber + " X 10 = " + multiplynumber*10 + "<br>");
+
+//Answer 05
+var subject1= prompt("Enter Your First Favourite Subject");
+var subject2= prompt("Enter Your Second Favourite Subject");
+var subject3= prompt("Enter Your Third Favourite Subject");
+var totalMarks= 300;
+var obtainedMarks1= prompt("Enter Your First Favourite Subject Obtained Marks");
+var obtainedMarks2= prompt("Enter Your First Favourite Subject Obtained Marks");
+var obtainedMarks3= prompt("Enter Your First Favourite Subject Obtained Marks");
+document.write("Total Marks in " + subject1 + " 100" + "<br>");
+document.write("Total Marks in " + subject2 + " 100" + "<br>");
+document.write("Total Marks in " + subject3 + " 100" + "<br>");
+document.write("Total Marks in " + subject1 + "is" + obtainedMarks1 + "<br>");
+document.write("Total Marks in " + subject2 + "is" + obtainedMarks2 + "<br>");
+document.write("Total Marks in " + subject3 + "is" + obtainedMarks3 + "<br>");
+document.write("This is the percentage of your total 3 subjects " + (obtainedMarks/totalMarks*100) + "%");
