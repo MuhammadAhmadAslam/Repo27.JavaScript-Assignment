@@ -253,20 +253,25 @@ document.write("Welcome" + yourName + "<br>");
 
 //Answer 04
 var multiplynumber = prompt("Enter a number to display a table of this number");
-if(0 >= multiplynumber){
-    var multiplynumber = 5;
+
+// Convert the input to a number
+multiplynumber = parseFloat(multiplynumber);
+
+if (isNaN(multiplynumber) || multiplynumber <= 0) {
+    multiplynumber = 5;
 }
+
 document.write("Table Of " + " " + multiplynumber + "<br>");
-document.write(multiplynumber + " X 1 = " + multiplynumber*1 + "<br>");
-document.write(multiplynumber + " X 2 = " + multiplynumber*2 + "<br>");
-document.write(multiplynumber + " X 3 = " + multiplynumber*3 + "<br>");
-document.write(multiplynumber + " X 4 = " + multiplynumber*4 + "<br>");
-document.write(multiplynumber + " X 5 = " + multiplynumber*5 + "<br>");
-document.write(multiplynumber + " X 6 = " + multiplynumber*6 + "<br>");
-document.write(multiplynumber + " X 7 = " + multiplynumber*7 + "<br>");
-document.write(multiplynumber + " X 8 = " + multiplynumber*8 + "<br>");
-document.write(multiplynumber + " X 9 = " + multiplynumber*9 + "<br>");
-document.write(multiplynumber + " X 10 = " + multiplynumber*10 + "<br>");
+document.write(multiplynumber + " X 1 = " + multiplynumber * 1 + "<br>");
+document.write(multiplynumber + " X 2 = " + multiplynumber * 2 + "<br>");
+document.write(multiplynumber + " X 3 = " + multiplynumber * 3 + "<br>");
+document.write(multiplynumber + " X 4 = " + multiplynumber * 4 + "<br>");
+document.write(multiplynumber + " X 5 = " + multiplynumber * 5 + "<br>");
+document.write(multiplynumber + " X 6 = " + multiplynumber * 6 + "<br>");
+document.write(multiplynumber + " X 7 = " + multiplynumber * 7 + "<br>");
+document.write(multiplynumber + " X 8 = " + multiplynumber * 8 + "<br>");
+document.write(multiplynumber + " X 9 = " + multiplynumber * 9 + "<br>");
+document.write(multiplynumber + " X 10 = " + multiplynumber * 10 + "<br>");
 
 //Answer 05
 var subject1= prompt("Enter Your First Favourite Subject");
